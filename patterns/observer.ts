@@ -10,7 +10,7 @@ interface Observer {
 
 class WeatherData implements Subject {
     observers: Array<Observer> = [];
-    temperature: number;
+    private temperature: number;
     notifyObserver() {
         this.observers.forEach(observer => observer.update(this.temperature));
     }
