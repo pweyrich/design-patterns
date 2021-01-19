@@ -51,7 +51,10 @@ const weatherData = new WeatherData();
 const weatherDataDisplay = new WeatherDataDisplay();
 
 weatherData.setTemperature(21.2);
-setTimeout(() => weatherData.setTemperature(34.6), 2000);
+setTimeout(() => weatherData.setTemperature(34.6), 1000);
+setTimeout(() => weatherData.setTemperature(30.8), 2000);
+setTimeout(() => weatherData.removeObserver(weatherDataDisplay), 1500);
 weatherData.registerObserver(weatherDataDisplay);
 weatherData.setTemperature(29.0);
+weatherData.setTemperature(19.7);
 // console.log('Hello World');
