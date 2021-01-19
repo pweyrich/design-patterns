@@ -1,0 +1,16 @@
+{
+  "name": "design-patterns",
+  "version": "0.0.1",
+  "description": "just a training repository",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "design",
+    "patterns"
+  ],
+  "author": "pweyrich",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
