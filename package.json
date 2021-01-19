@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "just a training repository",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "run:observer": "tsc patterns/observer.ts && node patterns/observer.js"
+  },
   "keywords": [
     "design",
     "patterns"
